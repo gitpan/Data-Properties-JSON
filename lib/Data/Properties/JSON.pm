@@ -3,8 +3,8 @@ package Data::Properties::JSON;
 
 use strict;
 use warnings 'all';
-use JSON;
-our $VERSION = '0.001';
+use JSON::XS;
+our $VERSION = '0.002';
 
 
 sub new

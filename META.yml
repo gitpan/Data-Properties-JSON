@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Data-Properties-JSON
-version:            0.001
+version:            0.002
 abstract:           JSON test fixtures.
 author:
     - John Drago <jdrago_999@yahoo.com>
@@ -9,7 +9,7 @@ distribution_type:  module
 test_requires:
     Test::More:       0
 requires:
-    JSON:             0
+    JSON::XS:         0
 recommends:
     ASP4:             1.059
 no_index:

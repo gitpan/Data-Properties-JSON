@@ -10,7 +10,7 @@ all_from 'lib/Data/Properties/JSON.pm';
 
 test_requires 'Test::More'  => '0';
 
-requires  'JSON';
+requires  'JSON::XS';
 
 tests_recursive();
 WriteAll();
