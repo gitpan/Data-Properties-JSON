@@ -4,7 +4,7 @@ use strict;
 use warnings 'all';
 use Test::More 'no_plan';
 
-use JSON;
+use JSON::XS;
 use_ok('Data::Properties::JSON');
 
 FILE: {

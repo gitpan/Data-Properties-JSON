@@ -4,7 +4,7 @@ package Data::Properties::JSON;
 use strict;
 use warnings 'all';
 use JSON::XS;
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 
 sub new
