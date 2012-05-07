@@ -1,6 +1,9 @@
 
 Changelog for Data::Properties::JSON
 
+2012-05-07    v0.004
+  - DEPRECATED
+
 2011-12-28    v0.003
   - A test was still using 'JSON' and this was causing tests to fail on machines
     without the 'JSON' module already installed.

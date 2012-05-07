@@ -4,7 +4,7 @@ package Data::Properties::JSON;
 use strict;
 use warnings 'all';
 use JSON::XS;
-our $VERSION = '0.003';
+our $VERSION = '0.004';
 
 
 sub new
@@ -78,6 +78,10 @@ sub DESTROY { }
 =head1 NAME
 
 Data::Properties::JSON - JSON test fixtures and properties.
+
+=head1 DEPRECATED
+
+This module is now deprecated and should no longer be used.
 
 =head1 SYNOPSIS
 
